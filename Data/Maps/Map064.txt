@@ -1,0 +1,98 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["You Wazzup Again Do You Wanna Buy More"])
+    ShowText(["Shhhhhtuff?"])
+    ShopProcessing([0, 8, 1, 100, false])
+    ShopItem([0, 2, 1, 50])
+    ShopItem([0, 5, 0, 0])
+    ShopItem([1, 2, 1, 500])
+    ShopItem([1, 5, 1, 400])
+    ShopItem([1, 8, 1, 500])
+    ShopItem([0, 9, 0, 0])
+    ShopItem([0, 10, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["Hey The Area Down There Is JUST To Farm"])
+    ShowText(["Up... Just To Let You Know"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Do You Wish To Enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 67, 8, 0, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["Hey The Area Down There Is JUST To Farm"])
+    ShowText(["Up... Just To Let You Know"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Do You Wish To Enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 67, 9, 0, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["Hey The Area Down There Is JUST To Farm"])
+    ShowText(["Up... Just To Let You Know"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Do You Wish To Enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 67, 10, 0, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Open1\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=12, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=12, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 75, 1, 7, 0, 0])
+    Empty([])

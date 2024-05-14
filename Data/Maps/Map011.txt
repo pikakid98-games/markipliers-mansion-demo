@@ -1,0 +1,141 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Open1\", @pitch=100, @volume=80)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=17, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=18, @parameters=[])\", \"RPG::MoveCommand(@code=15, @parameters=[3])\", \"RPG::MoveCommand(@code=19, @parameters=[])\", \"RPG::MoveCommand(@code=37, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=17, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=18, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=15, @parameters=[3])"])
+    Unnamed(["RPG::MoveCommand(@code=19, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=37, @parameters=[])"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=true, @wait=true, @list=[\"RPG::MoveCommand(@code=12, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=12, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 10, 9, 1, 0, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of..."])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Wait"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["TINY BOX TIM!!"])
+    ShowText(["IS THAT YOU!!!"])
+    ShowTextAttributes(["Marktbt", 0, 0, 2])
+    ShowText(["Mark Keep Your Voice Down"])
+    ShowText(["SHE Might Come Back"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Who?"])
+    ShowTextAttributes(["Marktbt", 0, 0, 2])
+    ShowText(["The Woman Who Took Me"])
+    ShowTextAttributes(["Marktbt", 0, 0, 2])
+    ShowText(["She Told Me To Act Like A Normal Box"])
+    ShowText(["Or She Would Smash Me Up"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["(I Need To Find A Way To Help My"])
+    ShowText(["Little Biscuit... But How?)"])
+    TransferPlayer([0, 15, 13, 47, 0, 2])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of Boxes"])
+    ShowText(["Nothing Interesting"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of Boxes"])
+    ShowText(["Nothing Interesting"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of Boxes"])
+    ShowText(["Nothing Interesting"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["I Should Probably Look For Tiny"])
+    ShowText(["Box Tim"])
+    TransferPlayer([0, 11, 21, 47, 0, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["I Should Probably Look For Tiny"])
+    ShowText(["Box Tim"])
+    TransferPlayer([0, 11, 22, 47, 0, 0])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["I Should Probably Look For Tiny"])
+    ShowText(["Box Tim"])
+    TransferPlayer([0, 11, 23, 47, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of Boxes"])
+    ShowText(["Nothing Interesting"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of Boxes"])
+    ShowText(["Nothing Interesting"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of Boxes"])
+    ShowText(["Nothing Interesting"])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Just A Lot Of Boxes"])
+    ShowText(["Nothing Interesting"])
+    Empty([])

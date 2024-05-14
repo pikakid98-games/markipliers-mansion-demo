@@ -1,0 +1,28 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["Untitled", 0, 0, 2])
+    ShowText(["Buy Me Some Time Minions!!!"])
+    ShowTextAttributes(["Monster1", 3, 0, 2])
+    ShowText(["Yes Mistress"])
+    ShowTextAttributes(["Monster1", 3, 0, 2])
+    ShowText(["Anything For Mistress"])
+    TransferPlayer([0, 110, 8, 8, 0, 1])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])

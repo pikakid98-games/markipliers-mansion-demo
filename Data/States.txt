@@ -1,0 +1,250 @@
+State 1
+Icon Index = 17
+Message 1 = " has fallen!"
+Message 2 = " is slain!"
+Message 3 = ""
+Message 4 = " revives!"
+Name = "Death"
+Description = nil
+Note = "State #1 will be automatically added when\r\nHP reaches 0."
+
+State 2
+Icon Index = 18
+Message 1 = " is poisoned!"
+Message 2 = " is poisoned!"
+Message 3 = ""
+Message 4 = " is freed of poison!"
+Name = "Poison"
+Description = nil
+Note = ""
+
+State 3
+Icon Index = 19
+Message 1 = " becomes blind!"
+Message 2 = " is blinded!"
+Message 3 = ""
+Message 4 = " is no longer blinded!"
+Name = "Blind"
+Description = nil
+Note = ""
+
+State 4
+Icon Index = 20
+Message 1 = " cannot cast Magic!"
+Message 2 = " cannot cast Magic!"
+Message 3 = ""
+Message 4 = "'s Magic is no longer sealed!"
+Name = "Silence"
+Description = nil
+Note = ""
+
+State 5
+Icon Index = 21
+Message 1 = " becomes confused!"
+Message 2 = " is confused!"
+Message 3 = ""
+Message 4 = " is no longer confused!"
+Name = "Confusion"
+Description = nil
+Note = ""
+
+State 6
+Icon Index = 22
+Message 1 = " falls asleep!"
+Message 2 = " falls asleep!"
+Message 3 = " is sleeping......"
+Message 4 = " wakes up!"
+Name = "Sleep"
+Description = nil
+Note = ""
+
+State 7
+Icon Index = 23
+Message 1 = " becomes paralyzed!"
+Message 2 = " is paralyzed!"
+Message 3 = " is unable to move!"
+Message 4 = " is no longer paralyzed!"
+Name = "Paralysis"
+Description = nil
+Note = ""
+
+State 8
+Icon Index = 24
+Message 1 = " loses balance!"
+Message 2 = " loses balance!"
+Message 3 = " hasn't regained balance......"
+Message 4 = " regains balance!"
+Name = "Stun"
+Description = nil
+Note = ""
+
+State 9
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Guard"
+Description = ""
+Note = ""
+
+State 10
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Immortal"
+Description = ""
+Note = ""
+
+State 11
+Icon Index = 0
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Cover"
+Description = ""
+Note = ""
+
+State 12
+Icon Index = 25
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Provoke"
+Description = ""
+Note = ""
+
+State 13
+Icon Index = 28
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Hide"
+Description = ""
+Note = ""
+
+State 14
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "HP Regen"
+Description = ""
+Note = ""
+
+State 15
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "MP Regen"
+Description = ""
+Note = ""
+
+State 16
+Icon Index = 26
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "TP Regen"
+Description = ""
+Note = ""
+
+State 17
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Ironbody"
+Description = ""
+Note = ""
+
+State 18
+Icon Index = 27
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Counterattack"
+Description = ""
+Note = ""
+
+State 19
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Magic Evade"
+Description = ""
+Note = ""
+
+State 20
+Icon Index = 31
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Magic Reflect"
+Description = ""
+Note = ""
+
+State 21
+Icon Index = 104
+Message 1 = " acquires the power of fire!"
+Message 2 = " acquires the power of fire!"
+Message 3 = ""
+Message 4 = ""
+Name = "Fire Force"
+Description = ""
+Note = ""
+
+State 22
+Icon Index = 105
+Message 1 = " acquires the power of ice!"
+Message 2 = " acquires the power of ice!"
+Message 3 = ""
+Message 4 = ""
+Name = "Ice Force"
+Description = ""
+Note = ""
+
+State 23
+Icon Index = 106
+Message 1 = " acquires the power of thunder!"
+Message 2 = " acquires the power of thunder!"
+Message 3 = ""
+Message 4 = ""
+Name = "Thunder Force"
+Description = ""
+Note = ""
+
+State 24
+Icon Index = 29
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Ailment Guard"
+Description = ""
+Note = ""
+
+State 25
+Icon Index = 25
+Message 1 = ""
+Message 2 = ""
+Message 3 = ""
+Message 4 = ""
+Name = "Scared"
+Description = ""
+Note = "State #25 will be automatically added when\r\nMP reaches 0."
+

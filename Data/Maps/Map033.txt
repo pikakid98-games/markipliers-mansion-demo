@@ -1,0 +1,76 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Now's Not The Best Time To Go Back To Bed"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["No"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["No"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Maybe I Should Explore The Other Rooms"])
+    ShowText(["First"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["I Doubt He's Outside. He Would've Left A"])
+    ShowText(["Note"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Who The Hell Are You And What Are You"])
+    ShowText(["Doing In My House?"])
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["I'm Jordan. I'm The Developer Of This"])
+    ShowText(["Game"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Well Can You Tell Me Where My Friends"])
+    ShowText(["Are?"])
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["Sorry. That Would Ruin The Story"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Well Screw You Then Mr. Developer"])
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["But I Can Tell You Some Other Stuff"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Like What?"])
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["Err. Try Calling Those Who Are Closest To"])
+    ShowText(["You"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Why?"])
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["It's The Only Way To Advance The Story"])
+    TransferPlayer([0, 34, 23, 7, 0, 2])
+    Empty([])

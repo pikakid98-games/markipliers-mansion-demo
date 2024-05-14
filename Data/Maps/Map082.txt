@@ -1,0 +1,49 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["YAMIMASH!!!!!"])
+    ShowTextAttributes(["aaron", 0, 0, 2])
+    ShowText(["What Took You So Long Mark?"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Oh Fine Tim, Felix Let's Go Without Aaron"])
+    ShowTextAttributes(["aaron", 0, 0, 2])
+    ShowText(["WAIT!!! No That's Not What I Meant"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Then What Did You Mean?"])
+    ShowTextAttributes(["aaron", 0, 0, 2])
+    ShowText(["I Meant..."])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Yeeeees"])
+    ShowTextAttributes(["aaron", 0, 0, 2])
+    ShowText(["I Meant..."])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["YEEEEES!"])
+    ShowTextAttributes(["aaron", 0, 0, 2])
+    ShowText(["Thanks For Saving Me Mark"])
+    PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+    ChangePartyMember([6, 0, 0])
+    ShowTextAttributes(["aaron", 0, 1, 2])
+    ShowText(["Aaron"])
+    ShowText(["Joined The Party"])
+    TransferPlayer([0, 21, 10, 20, 2, 0])
+    Empty([])

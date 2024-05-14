@@ -1,0 +1,99 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Mmm A Bottle Of Water. Yum Yum. Bland"])
+    ShowText(["Clear Liquid"])
+    PlayME(["RPG::ME(@name=\"Item\", @pitch=100, @volume=100)"])
+    ChangePartyMember([8, 1, 0])
+    ChangePartyMember([1, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Got A"])
+    ShowText(["Bottle Of Healing Water"])
+    TransferPlayer([0, 32, 11, 2, 0, 2])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not Yet"])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Not There"])
+    Empty([])

@@ -1,0 +1,64 @@
+Actor 1
+Nickname = "Markiplier"
+Character Name = "d8drdnu-159ae1f1-2367-4274-83b5-041d3ab4e567"
+Face Name = "Mark"
+Name = "Mark"
+Description = "His Full Name Is Mark Edward Fischbach. He Is A\r\nYoutuber With A Strong Love For Himself."
+Note = ""
+
+Actor 2
+Nickname = "Tiny Box Tim"
+Character Name = "d8fs62l-0129ffd9-5f8d-4916-aa67-99500518f543"
+Face Name = "Marktbt"
+Name = "Tim"
+Description = "His Full Name Is Timothy Fischbach. A Small\r\nBox Mark Found On His Amnesia Journey."
+Note = ""
+
+Actor 3
+Nickname = "Lordminion777"
+Character Name = "wade"
+Face Name = "Wade"
+Name = "Wade"
+Description = "His Full Name Is Wade Barnes. He Is A Youtuber With\r\nAn Unusual Sense Of Humour."
+Note = ""
+
+Actor 4
+Nickname = "Muyskerm"
+Character Name = "bob"
+Face Name = "Bob"
+Name = "Bob"
+Description = "His Full Name Is Bob Muyskens. A Good Friend Of\r\nMark's. He's A Guy You Just Want To Feel..."
+Note = ""
+
+Actor 5
+Nickname = "Jacksepticeye... Or Jack"
+Character Name = "sean"
+Face Name = "Sean"
+Name = "Sean"
+Description = "His Full Name Is Sean McLoughlin. He's An Irishman\r\nWho Has A Strange Obsession With Shouting"
+Note = ""
+
+Actor 6
+Nickname = "Yamimash"
+Character Name = "yamimash"
+Face Name = "aaron"
+Name = "Aaron"
+Description = "His Full Name Is Aaron Ash. A British Youtuber Who\r\nDone A Bunch Of Collabs With Mark. LEVIOSAAAAH!"
+Note = ""
+
+Actor 7
+Nickname = "PewDiePie"
+Character Name = "felix"
+Face Name = "Felix"
+Name = "Felix"
+Description = "His Full Name Is Felix Arvid Ulf Kjellberg. A\r\nSwedish Youtuber With An Unusually High Voice"
+Note = ""
+
+Actor 8
+Nickname = "Markiplier"
+Character Name = "d8drdnu-159ae1f1-2367-4274-83b5-041d3ab4e567"
+Face Name = "Mark"
+Name = "Mark"
+Description = "His Full Name Is Mark Edward Fischbach. He Is A\r\nYoutuber With A Strong Love For Himself."
+Note = ""
+

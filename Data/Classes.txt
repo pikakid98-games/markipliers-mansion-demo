@@ -1,0 +1,40 @@
+Class 1
+Name = "Hero"
+Description = ""
+Note = ""
+
+Class 2
+Name = "Helper"
+Description = ""
+Note = ""
+
+Class 3
+Name = "Wade"
+Description = ""
+Note = ""
+
+Class 4
+Name = "Face Toucher"
+Description = ""
+Note = ""
+
+Class 5
+Name = "Drunken Irishman"
+Description = ""
+Note = ""
+
+Class 6
+Name = "British Guy"
+Description = ""
+Note = ""
+
+Class 7
+Name = "Brofister"
+Description = ""
+Note = ""
+
+Class 8
+Name = "Hero"
+Description = ""
+Note = ""
+

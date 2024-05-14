@@ -1,0 +1,19 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Monster1", 3, 0, 2])
+    ShowText(["Death Time!!"])
+    BattleProcessing([0, 14, false, false])
+    TransferPlayer([0, 111, 8, 8, 0, 2])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])

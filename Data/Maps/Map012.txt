@@ -1,0 +1,68 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Locked"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Untitled", 0, 0, 2])
+    ShowText(["I Finally Have You In My Grasp"])
+    ShowText(["The Master Will Be Very Pleased"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["And Your Master Is Who Exactly?"])
+    ShowTextAttributes(["Untitled", 0, 0, 2])
+    ShowText(["SILENCE HUMAN!!!"])
+    ShowTextAttributes(["Marktbt", 0, 0, 2])
+    ShowText(["HEY!! Don't You Dare Speak To Mark"])
+    ShowText(["Like That"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["That's Why Your My Little Biscuit"])
+    ShowTextAttributes(["Untitled", 0, 0, 2])
+    ShowText(["Human... If You Wish To Persist"])
+    ShowText(["Then I Must Engage You In"])
+    ShowText(["Battle"])
+    ShowTextAttributes(["Mark", 0, 0, 2])
+    ShowText(["Bring It On!"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Battle1\", @volume=100, @pitch=100)"])
+    BattleProcessing([0, 2, false, false])
+    TransferPlayer([0, 20, 22, 46, 0, 2])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])

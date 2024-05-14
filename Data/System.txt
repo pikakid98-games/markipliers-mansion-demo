@@ -1,0 +1,7 @@
+Game Title = "Markiplier's Mansion"
+Currency Unit = "☻"
+Title 1 Name = "DemonCastle"
+Title 2 Name = ""
+Battleback 1 Name = ""
+Battleback 2 Name = ""
+Battler Name = "Assassin"

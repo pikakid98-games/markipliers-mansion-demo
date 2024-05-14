@@ -1,0 +1,27 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["me", 0, 0, 2])
+    ShowText(["Wow Your Alive Well It's The Perfect Time To"])
+    ShowText(["Buy Stuff"])
+    ShopProcessing([1, 11, 0, 0, false])
+    ShopItem([1, 9, 0, 0])
+    ShopItem([1, 2, 0, 0])
+    ShopItem([1, 3, 0, 0])
+    ShopItem([1, 6, 0, 0])
+    ShopItem([0, 8, 1, 100])
+    ShopItem([0, 9, 0, 0])
+    ShopItem([0, 10, 1, 100])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 90, 14, 29, 8, 0])
+    Empty([])
