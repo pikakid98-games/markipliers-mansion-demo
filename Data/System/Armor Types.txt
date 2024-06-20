@@ -1,7 +1,0 @@
-""
-"General Armour"
-"Magic Armour"
-"Light Armour"
-"Heavy Armour"
-"Small Shield"
-"Large Shield"

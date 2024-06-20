@@ -1,4 +1,0 @@
-CommonEvent 3
-Name = ""
-
-  Empty([])

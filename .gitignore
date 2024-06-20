@@ -1,6 +1,4 @@
 
-/System
-*.exe
-*.rvdata2
+*.txt
 *.db
 decompile.bat
